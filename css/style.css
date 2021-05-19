@@ -6,11 +6,16 @@
     height: 50px;
 }
 
+.debug .contact .box{
+    background-color: red;
+    height: 200px;
+}
+
 /*fine debug*/
 
 
 nav{
-    background-color: darkblue;
+    background-color: blue;
     height: 80px;
 }
 
