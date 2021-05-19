@@ -14,6 +14,14 @@
 
 /*fine debug*/
 
+.white{
+    color: white;
+}
+
+.img{
+    width: 15%;
+}
+
 .jumbotrom{
     background-color: aqua;
     height: 400px;
