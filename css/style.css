@@ -1,7 +1,8 @@
 /*debug*/
 
 .debug .portfolio .box,
-.debug .about .box{
+.debug .about .box,
+.debug footer .footer-top .box{
     background-color: red;
     height: 50px;
 }
@@ -12,7 +13,6 @@
 }
 
 /*fine debug*/
-
 
 nav{
     background-color: blue;
@@ -26,4 +26,13 @@ nav{
 
 .about{
     background-color: aqua;
+}
+
+.footer-top{
+    background-color: blue;
+}
+
+.footer-bottom{
+    background-color: black;
+    color: white
 }
