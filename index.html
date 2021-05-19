@@ -38,7 +38,7 @@
     <!--fine header-->
 
     <!--inizio jumbotrom-->
-    <div class="jumbotrom">
+    <div class="jumbotrom p-5">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -147,10 +147,39 @@
         <!--inizio sezione contact-->
         <section class="contact">
             <h2 class="text-center m-3 text-uppercase">contact me</h2>
+             <!--star-->
+             <div class="star d-flex align-items-center container mb-3">
+                <div class="row_left bg-dark"></div>
+                <div class="icon_star">
+                    <i class="fas fa-star mx-2"></i>
+                </div>
+                <div class="row_right bg-dark"></div>
+            </div>
+            <!--fine star-->
            <div class="container">
                <div class="row">
                    <div class="col-12">
-                       <div class="box"></div>
+                       <div class="box">
+                        <form>
+                            <div class="mb-3">
+                                <label for="Name" class="form-label">Name</label>
+                                <input type="text" class="form-control border-top-0 border-end-0 border-start-0">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control border-top-0 border-end-0 border-start-0" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="Phone Number" class="form-label">Phone Number</label>
+                                <input type="text" class="form-control border-top-0 border-end-0 border-start-0">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control border-top-0 border-end-0 border-start-0" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                            <button type="submit" class="btn btn-success">Send</button>
+                          </form>
+                       </div>
                    </div>
                </div>
            </div>
