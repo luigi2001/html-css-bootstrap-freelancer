@@ -18,14 +18,31 @@
     color: white;
 }
 
-.img{
-    width: 15%;
-}
+/*jambotrom*/
 
 .jumbotrom{
     background-color: aqua;
     height: 400px;
 }
+
+.img{
+    width: 15%;
+}
+
+.star{
+    width: 300px;
+}
+
+.star .row-left,
+.star .row-right{
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}
+
+/*fine jambotrom*/
+
+
 
 .about{
     background-color: aqua;
