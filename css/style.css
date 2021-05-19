@@ -1,6 +1,7 @@
 /*debug*/
 
-.debug .portfolio .box{
+.debug .portfolio .box,
+.debug .about .box{
     background-color: red;
     height: 50px;
 }
@@ -16,4 +17,8 @@ nav{
 .jumbotrom{
     background-color: aqua;
     height: 400px;
+}
+
+.about{
+    background-color: aqua;
 }
